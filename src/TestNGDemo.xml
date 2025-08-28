@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+
+	<class name="TestNgClases.TestNG_groupDemo" />
+	<class name="TestNgClases.NewTest" />
+	<groups>
+		<run>
+			<include name="smoke"></include>
+			<include name ="outsideclass"></include>
+		</run>
+	</groups>
+     
+          
+        
+       
+      
+   
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
